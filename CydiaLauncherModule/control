@@ -1,0 +1,9 @@
+Package: com.opa334.cydialaunchermodule
+Name: CydiaLauncher
+Depends: mobilesubstrate, com.opa334.ccsupport
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An awesome Cydia Launcher!
+Maintainer: opa334
+Author: opa334
+Section: Control Center (Modules)
