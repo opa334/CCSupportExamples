@@ -52,5 +52,7 @@
 			<integer>1</integer>
 		</dict>
 	</dict>
+	<key>CCSPreferencesRootListController</key>
+	<string>SmileyModuleRootListController</string>
 </dict>
 </plist>
