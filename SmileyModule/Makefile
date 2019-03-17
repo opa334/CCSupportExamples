@@ -7,6 +7,7 @@ BUNDLE_NAME = SmileyModule
 SmileyModule_BUNDLE_EXTENSION = bundle
 SmileyModule_FILES = SmileyModule.m SmileyModuleRootListController.m
 SmileyModule_PRIVATE_FRAMEWORKS = ControlCenterUIKit Preferences
+SmileyModule_CFLAGS = -fobjc-arc
 SmileyModule_INSTALL_PATH = /Library/ControlCenter/Bundles/
 
 after-install::
