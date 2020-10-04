@@ -1,0 +1,9 @@
+Package: com.opa334.smileyprovider
+Name: SmileyProvider
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome Control Center module!
+Maintainer: opa334
+Author: opa334
+Section: Control Center (Modules)

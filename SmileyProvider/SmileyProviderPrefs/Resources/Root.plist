@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.opa334.ccsupport/ReloadProviders</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>1</string>
+			<key>defaults</key>
+			<string>com.opa334.smileyprovider</string>
+			<key>key</key>
+			<string>ModuleNumber</string>
+			<key>label</key>
+			<string>Number of Modules</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>label</key>
+				<string>Save</string>
+				<key>action</key>
+				<string>closeKeyboard</string>
+			</dict>
+	</array>
+	<key>title</key>
+	<string>Smiley Provider</string>
+</dict>
+</plist>

@@ -1,7 +1,7 @@
-include $(THEOS)/makefiles/common.mk
+TARGET := iphone:clang:13.0:11.0
+INSTALL_TARGET_PROCESSES = SpringBoard
 
-export TARGET = iphone:clang:11.2:11.0
-export ARCHS = arm64
+include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = CydiaLauncherModule
 CydiaLauncherModule_FILES = CydiaLauncherModule.m
