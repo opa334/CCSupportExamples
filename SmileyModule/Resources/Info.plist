@@ -34,7 +34,7 @@
 		<string>iPhoneOS</string>
 	</array>
 	<key>CCSGetModuleSizeAtRuntime</key>
-	<true/>
+	<false/>
 	<key>CCSModuleSize</key>
 	<dict>
 		<key>Portrait</key>
@@ -47,7 +47,7 @@
 		<key>Landscape</key>
 		<dict>
 			<key>Height</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Width</key>
 			<integer>1</integer>
 		</dict>

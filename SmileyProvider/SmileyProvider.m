@@ -31,14 +31,8 @@
 
 - (id)moduleInstanceForModuleIdentifier:(NSString*)identifier
 {
-  ProvidedSmileyModule* module = [_moduleInstancesByIdentifier objectForKey:identifier];
-  if(!module)
-  {
-    module = [[ProvidedSmileyModule alloc] init];
-    module.settingsIdentifier = identifier;
-    [_moduleInstancesByIdentifier setObject:module forKey:identifier];
-  }
-
+  ProvidedSmileyModule* module = [[ProvidedSmileyModule alloc] init];
+  module.settingsIdentifier = identifier;
   return module;
 }
 
